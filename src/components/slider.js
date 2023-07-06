@@ -4,7 +4,7 @@ import React from "react";
 function Slider() {
     return (
         <>
-            <section id="setHome" className="Slider">
+            <div id="setHome" className="Slider">
                 <div className="container mx-auto pl-5 pr-5">
                     <div 
                         className="relative flex items-center justify-center pt-32 pb-32 bg-no-repeat bg-center min-h-screen bg-contain before:absolute before:left-0 before:right-0 before:top-0 before:botom-0 before:h-full before:bg-[#464243] before:opacity-60"
@@ -18,7 +18,7 @@ function Slider() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </>
     )
 }

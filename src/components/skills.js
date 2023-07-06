@@ -4,7 +4,7 @@ import { AiOutlineCloudDownload } from 'react-icons/ai';
 function Skills(){
     return(
       <>
-      <section id="setSkills" className="relative">
+      <div id="setSkills" className="relative">
             <div className="container mx-auto pl-5 pr-5">
                 <div className="pt-20 pb-20">
                     <div before="EXPERIENCE" className="Title">
@@ -47,7 +47,7 @@ function Skills(){
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
       </>  
     );
 }

@@ -3,7 +3,7 @@ import React from "react";
 function About() {
     return (
         <>
-            <section id="setAbout" className="relative bg-[#514f50] pt-20 pb-20">
+            <div id="setAbout" className="relative bg-[#514f50] pt-20 pb-20">
                 <div className="container mx-auto pl-5 pr-5">
                     <div className="absolute right-0 -top-[138px] pointer-events-none">
                         <img src="clip-right.png" alt="" />
@@ -24,7 +24,7 @@ function About() {
                         <div className="text-9xl text-white flex-none font-extrabold max-md:text-6xl">99+<span className="block text-2xl font-light mt-3 max-md:text-lg">COMPLETED<br/>PROJECT</span></div>
                     </div>
                 </div>
-            </section>
+            </div>
         </>
     )
 }

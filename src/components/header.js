@@ -35,7 +35,7 @@ function Header(){
     return (
     <>
 
-      <header className={`${scroll > 0 ? 'sm:backdrop-blur-md bg-[#514f50]/30 max-sm:bg-[#514f50]/80' : ''} transition fixed top-0 left-0 right-0 z-20`}>
+      <div className={`${scroll > 0 ? 'sm:backdrop-blur-md bg-[#514f50]/30 max-sm:bg-[#514f50]/80' : ''} transition fixed top-0 left-0 right-0 z-20`}>
         <div className='container mx-auto p-4'>
             <div className='flex justify-between items-center'>
                 <div className='flex-none'>
@@ -66,7 +66,7 @@ function Header(){
                 </div>
             </div>  
         </div>
-      </header>
+      </div>
     </>
     )
     

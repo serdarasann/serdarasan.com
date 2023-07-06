@@ -9,7 +9,7 @@ import { BsSend } from 'react-icons/bs';
 function Contact(){
     return(
         <>
-            <section id="setContact" className="relative bg-[#514f50] pt-20 pb-20">
+            <div id="setContact" className="relative bg-[#514f50] pt-20 pb-20">
                 <div className="container mx-auto pl-5 pr-5">
                     <div className="absolute left-0 -top-[138px] pointer-events-none">
                         <img src="clip-left.png" alt="" />
@@ -40,7 +40,7 @@ function Contact(){
                         </div>
                     </div>
                 </div>
-            </section> 
+            </div> 
         </> 
     );
 }
