@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+body {font-family: 'Roboto', sans-serif;background-color: #464243;}
+
+
+.active{
+    @apply before:absolute before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:w-full before:bg-white before:h-0.5 before:bg-[#ffcd57];
+}
+
+.Title {
+    @apply text-center relative before:content-[attr(before)] before:pointer-events-none before:text-9xl before:font-semibold before:text-white before:opacity-5 mb-10 before:max-lg:text-8xl;
+}
+.Title .T {
+    @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl text-white font-medium pb-3 before:absolute before:bottom-0 before:left-1/2 before:-translate-x-1/2 before:w-20 before:h-0.5 before:bg-[#ffcd57];
+}
+
